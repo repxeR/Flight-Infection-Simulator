@@ -1,9 +1,9 @@
+import streamlit as st
 import pandas as pd
 import plotly.express as px
 import random as rand
 import math
 import numpy as np
-
 
 #chooses the correct template build function based on the option chosen
 def airplaneBuilder(airplane):
